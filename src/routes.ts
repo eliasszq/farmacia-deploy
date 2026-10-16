@@ -100,3 +100,4 @@ router.put("/itens/:idVenda/:idProduto", ItemPedidoController.atualizar);
 router.delete("/itens/:idVenda/:idProduto", ItemPedidoController.remover);
 
 export { router }; // Exporta o roteador
+export default routes;
